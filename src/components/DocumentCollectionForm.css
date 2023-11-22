@@ -27,6 +27,7 @@
 
 .left {
   width: 35%;
+  margin-top: 40px;
   /* border: 1px solid; */
   /* padding: 10px; */
   box-shadow: 2px 2px 2px 2px #f8f6f6;
@@ -46,7 +47,7 @@
 }
 
 .div1-document-form {
-  margin-left: 40px;
+  margin-left: 60px;
   border-radius: 5px;
   width: 360px;
   height: 120px;
@@ -69,14 +70,17 @@ text-document-form{
 
 
 label {
-  font-weight: bold;
+  color: rgb(44, 42, 42);
+  font-weight: normal;
 }
 
 input {
+  color: gray;
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
   box-sizing: border-box;
+  border: solid;
 }
 
 /* Adjust styles for the button or link */
@@ -108,6 +112,10 @@ Link:hover {
   float: right;
 }
 .start{
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.start-document-form{
   margin-left: 60px;
   margin-bottom: 30px;
 }

@@ -84,6 +84,10 @@ const DocumentCollectionForm = ({ onSubmit }) => {
         <br></br>
       </div>
       <div className="column right">
+      <div className="right-heading">
+          Preview<br></br>
+          You will be able to customize the fields in the later stage
+        </div>
         <form className="DocumentCollectionForm" onSubmit={handleSubmit}>
         <div>
             <h2>Name of the Enquiry Form</h2>
