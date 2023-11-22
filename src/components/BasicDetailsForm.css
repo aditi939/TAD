@@ -1,0 +1,117 @@
+/* styles/formStyles.css */
+
+.BasicDetailsForm {
+    /* margin-top: 40px; */
+    max-width: 696px;
+    margin: 0 auto ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+    /* width: 100%;
+    height: 100vh; */
+    padding: 30px;
+    background: linear-gradient(
+      to top,
+      white 0%,
+      white 70%,
+      #d4ecf5 30%,
+      #d4ecf5 100%
+    );
+  }
+ 
+  /* .column {
+    float: left;
+    padding: 10px; 
+    height: 300px; 
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 55%;
+  }
+   */
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+  .div1 {
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 360px;
+    height: 120px;
+    border: 1px solid gray;
+  }
+  
+  .div2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+  }
+  text{
+    width: 40px;
+  }
+
+    h2 {
+      margin-bottom: 0.2rem; /* Optional: Add some margin at the bottom of the heading */
+    }
+
+  
+  label {
+    font-weight: normal;
+    color: rgb(29, 28, 28);
+  }
+  
+  input {
+    color: gray;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    /* border-color: rgb(196, 191, 191);  */
+  }
+  
+  /* Adjust styles for the button or link */
+  /* For demonstration, I'm using a link here as you've used Link component */
+  Link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  Link:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  .square{
+    width: 27%;
+    float: left;
+  }
+  .paragraph {
+    margin-top: 14px;
+    font-size: small;
+    width: 73%;
+    padding: 0 10px 0 0;
+    float: right;
+  }
+  .start{
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  .right-heading{
+    margin-bottom: 20px;
+  }
